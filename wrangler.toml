@@ -1,0 +1,13 @@
+name = "cfw-prisma"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+compatibility_date = "2021-11-06"
+
+[build]
+command = "yarn install && npm run build"
+
+[build.upload]
+format = "service-worker"
