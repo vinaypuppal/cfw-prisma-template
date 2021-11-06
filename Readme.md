@@ -10,7 +10,7 @@ Create a new repo based on this repo using the [template page](https://github.co
 
 Follow [this guide](https://www.prisma.io/docs/guides/deployment/deployment-guides/deploying-to-cloudflare-workers) from step 5
 
-> Note: Modify `prisma/scheme.prisma` as per your application requirements before connecting `Prisma Data Platform`
+> Note: Modify [`prisma/scheme.prisma`](https://github.com/vinaypuppal/cfw-prisma-template/blob/master/prisma/schema.prisma) as per your application requirements before connecting `Prisma Data Platform`
 
 ## Running locally
 
