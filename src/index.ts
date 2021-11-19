@@ -11,9 +11,6 @@ async function addLog(request: ServerRequest) {
     data: {
       level: 'Info',
       message: `${request.method} ${request.url}`,
-      meta: {
-        headers: JSON.stringify([...request.headers.entries()]),
-      },
     },
   });
 }
